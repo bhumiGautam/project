@@ -1,0 +1,75 @@
+
+.navigation-main-div{
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	background-color:black;
+	width: 100%;
+  z-index: 2;
+}
+#logo-image{
+	margin-left: 3rem;
+	margin-top: 0.2rem;
+	margin-bottom: 0.3rem;
+	height: 5rem;
+	width: 12rem;
+	filter: brightness(3);
+}
+#mobile-icon-list ul li a{
+	display: none;
+}
+.sell-your-music-a{
+	border-bottom: 3px solid antiquewhite;
+}
+/* -----code for dropdown list ----- */
+.dropbtn {
+/*  background-color: transparent;*/
+  padding: 16px;
+  padding-bottom: 30px;
+  font-size: 1.2rem;
+  border: none;
+  text-decoration: none;
+  color: white;
+/*  opacity: 0.9;*/
+}
+/* .dropbtn:hover{
+	color: blue;
+} */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.dropdown-content {
+  display: none;
+  top: 3.5rem;
+  position: absolute;
+  background-color: black;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 8px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #3c3c52;}
+
+.dropdown:hover .dropdown-content {display: block;}
+/*---drop down ends-----*/
+/* .navigation-main-div{
+	position: fixed;
+} */
+.nav-item{
+	font-size: 1.2rem;
+	margin-top: 1.5rem;
+}
+.nav-link{
+	color: white;
+}

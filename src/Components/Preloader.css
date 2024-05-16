@@ -1,0 +1,112 @@
+/* 
+
+.preloader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 2rem;
+
+}
+  
+.letter {
+    opacity: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #27011c; 
+    font-size: 4rem;
+    animation: fade-in 1s forwards;
+}
+
+  
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+  
+.T {
+    animation-delay: 0.3s;
+}
+  
+.V {
+    animation-delay: 0.6s;
+    padding-right: 1rem;
+}
+.D {
+    animation-delay: 1s;
+}
+.I {
+    animation-delay: 1.3s;
+}
+.S {
+    animation-delay: 1.6s;
+}
+.T2 {
+    animation-delay: 2s;
+}
+.R {
+    animation-delay: 2.3s;
+}
+.I2 {
+    animation-delay: 2.6s;
+}
+.B {
+    animation-delay: 3s;
+}
+.U {
+    animation-delay: 3.3s;
+}
+.T3 {
+    animation-delay: 3.6s;
+}
+.I3 {
+    animation-delay: 4s;
+}
+.O {
+    animation-delay: 4.3s;
+}
+.N {
+    animation-delay: 4.6s;
+}
+.distributing-dream{
+    animation-delay: 6s;
+    font-size: 1.5rem;
+    margin-top: 8rem;
+    margin-left: -15rem;
+}
+*/
+
+.preloader {
+    text-align: center;
+    margin-top: 15rem;
+    /* text-align: center; */
+  }
+  
+  .neon {
+    font-size: 48px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: neon-flicker 1.5s infinite alternate;
+  }
+  
+  .numbers {
+    font-size: 36px;
+    position: relative;
+    animation: neon-flicker 1.5s infinite alternate-reverse;
+  }
+  
+  @keyframes neon-flicker {
+    0% {
+      text-shadow: 0 0 10px #0F0, 0 0 20px #0F0, 0 0 30px #0F0, 0 0 40px #0F0, 0 0 50px #0F0, 0 0 60px #0F0, 0 0 70px #0F0;
+    }
+    50% {
+      text-shadow: none;
+    }
+    100% {
+      text-shadow: 0 0 10px #0F0, 0 0 20px #0F0, 0 0 30px #0F0, 0 0 40px #0F0, 0 0 50px #0F0, 0 0 60px #0F0, 0 0 70px #0F0;
+    }
+  }
+  

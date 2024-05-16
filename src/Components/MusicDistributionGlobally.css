@@ -1,0 +1,45 @@
+.music-distribution-h1{
+    font-size: 4rem;
+    margin: 3rem 0 2rem 0;
+}
+center{
+    margin: 1% 0;
+}
+
+.music-distribution-span{
+    color: blue;
+}
+
+.sign-up-btn{
+    border-radius: 21px;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+@media (max-width:967px) {
+    .music-distribution-h1{
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (max-width:1065px) {
+    .music-distribution-h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:1365px) {
+    .music-distribution-h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width:576px) {
+    .music-distribution-h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}

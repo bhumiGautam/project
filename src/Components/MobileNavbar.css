@@ -1,0 +1,78 @@
+.three-bars{
+  font-size: 3rem;
+  color: white;
+  margin: 0.5rem 3.9rem;
+}
+.mobile-nav{
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+  justify-content: space-between;
+}
+ 
+#mobile-nav-logo{
+    width: 8rem;
+    margin-right: 5%;
+}
+
+.accordion {
+  --bs-accordion-bg:black;
+  --bs-accordion-border-color:black;
+  --bs-accordion-btn-padding-x:0;
+  --bs-accordion-btn-padding-y:0;
+  --bs-accordion-color:white
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: black;
+}
+
+.custom-offcanvas-header{
+  margin-left: 14rem;
+  font-size: 2rem;
+}
+.accordion-button::after {
+  margin-left: 0;
+  background-image: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: none;
+}
+.angle-down{
+  margin-left: 0;
+}
+.nav-link:hover {
+  color: white;
+}
+
+@media (max-width:768px) {
+  #mobile-nav-logo{
+    width: 8rem;
+    margin-right: 5%;
+  }
+  .mobile-nav{
+    position: fixed;
+    top: 0;
+  }
+}
+
+
+@media (max-width:576px) {
+  #mobile-nav-logo{
+    width: 8rem;
+    margin-right: 5%;
+    /* position: fixed; */
+    top: 0;
+  }
+  .three-bars{
+    font-size: 2rem;
+    color: white;
+    margin: 0.5rem 3.9rem;
+  }
+  .mobile-nav{
+    position: fixed;
+    top: 0;
+    height: 8%;
+  }
+}

@@ -1,0 +1,128 @@
+
+.image-slider {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 10rem auto;
+}
+/* .carausel-image{
+  wi;
+} */
+/* div{
+  height: 70vh;
+} */
+
+.slider-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slider-image.active {
+  opacity: 1;
+  /* position: relative; */
+  z-index: 1;
+}
+
+.content-wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background-color:transparent; /* Semi-transparent white background */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.content-wrapper h1 {
+  font-size: 8rem;
+  font-weight: 900;
+  margin-top: -15rem !important;
+  color: #333;
+  /* margin-top: -105rem !important; */
+}
+
+.content-wrapper p {
+  margin-bottom: 0;
+  font-size: 16px;
+  color: #555;
+}
+
+.content-wrapper button {
+  background-color: #007bff; /* Blue button color */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.content-wrapper button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.sell-your-music-h1{
+  font-size: 8rem;
+  font-weight: 900;
+  margin-top: -15rem !important;
+}
+
+.carousel-indicators{
+  z-index: 1;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  height: 0.7rem;
+  width: 0.7rem;
+}
+
+
+
+
+@media (max-width:968px) {
+  .sell-your-music-h1{
+    font-size: 6rem;
+    font-weight: 600;
+    /* top: 5%; */
+  }
+}
+
+
+@media (max-width:768px) {
+  .sell-your-music-h1{
+    font-size: 5.3rem;
+    /* margin-top: -15rem; */
+  }
+}
+
+@media (max-width:1065px) {
+  .sell-your-music-h1{
+    font-size: 6rem;
+    font-weight: 700;
+    /* margin-top: -4rem !important; */
+  }
+}
+
+
+@media (max-width:576px) {
+  .sell-your-music-h1{
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: -15rem;
+  }
+  .sign-up-btn{
+    height: 2.2rem;
+    font-size: 0.8rem;
+    padding-top: 0;
+  }
+  
+}

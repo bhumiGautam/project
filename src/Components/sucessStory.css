@@ -1,0 +1,30 @@
+.sucess-story{
+    top: 0;
+    left: 0;
+    background-image: url(../Images/concert.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    z-index: -1;
+   
+}
+.sucess-logo{
+    height: 10rem;
+}
+.sucess-h1{
+    color: azure;
+    font-weight: 700;
+    padding-top: 5%;
+    /* z-index: 3; */
+}
+.content{
+    position: relative;
+  width: 100%; /* Ensure full width */
+  height: 100%; /* Ensure full height */
+  /* overflow-y: auto; Allow vertical scrolling if content exceeds container height */
+  padding: 20px;
+}
+.join-now-btn{
+    border-radius: 20px;
+}

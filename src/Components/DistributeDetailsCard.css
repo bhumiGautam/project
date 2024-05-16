@@ -1,0 +1,27 @@
+.card-icon{
+  height: 8rem;
+  color: #d63384;
+}
+.card-title1{
+  font-size: 2.2rem;
+  font-weight: 600;
+}
+.card-desc1{
+  font-size: 1.3rem;
+  font-weight: 100;
+}
+
+@media (max-width:576px) {
+  .card-icon{
+    height: 4rem;
+  }
+  card{
+    gap: 4rem;
+  }
+  .card-title1{
+    font-size: 0.4rem;
+  }
+  .card-desc1{
+    font-size: 0.2rem;
+  }
+}

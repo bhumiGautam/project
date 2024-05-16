@@ -1,0 +1,19 @@
+.why-choose-us-h2{
+    color: blue;
+}
+.why-choose-us{
+    background-color: rgb(34, 33, 33);
+}
+.why-choose-us-h1{
+    color: aqua;
+    /* margin: 2rem 0; */
+    padding: 2rem 0;
+}
+.why-choose-us p{
+    color: azure;
+}
+.why-choose-us-btn{
+    border-radius: 20px;
+    font-size: large;
+    margin: 2rem 0;
+}

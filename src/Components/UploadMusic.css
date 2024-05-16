@@ -1,0 +1,15 @@
+.upload-music-h1{
+    font-size: 4.2rem;
+    font-weight: 700;
+    margin-top: 10rem;
+}
+.upload-music-p{
+    font-size: 2.2rem;
+    font-weight: 300;
+}
+#upload-music-span{
+    color: blue;
+}
+.upload-music-div{
+    margin: 5% 10%;
+}
